@@ -31,3 +31,32 @@ footer .itensrodape a, footer .sociais{
     text-decoration: none;
     font-weight: 900;
 }
+.sociais ul li i {
+    font-size: 40px;
+    color: #1a1a1a;
+}
+.sociais ul li{
+    display: inline-block;
+}
+
+.localizacao .endereco, .localizacao .mapa{
+    width: 49%;
+    display: inline-block;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+} 
+
+.endereco h2 {
+     font-size: 40px;
+     font-weight: 900;
+}
+.endereco p{
+    padding: 20px;
+    line-height: 25px;
+    font-size: 22px; 
+}
+.localizacao .endereco {
+    margin-top: 65px;
+    float: left;
+}

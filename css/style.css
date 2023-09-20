@@ -5,7 +5,7 @@ body{
 }
 footer{
     background-color: #1a1a1a;
-    color: #fff;
+    color:#fff;
 }
 footer p{
     text-align: center;
@@ -45,16 +45,16 @@ footer .itensrodape a, footer .sociais{
     padding-top: 40px;
     text-align: center;
     padding-bottom: 40px;
-} 
+}
 
 .endereco h2 {
-     font-size: 40px;
-     font-weight: 900;
+    font-size: 40px;
+    font-weight: 900;
 }
 .endereco p{
     padding: 20px;
     line-height: 25px;
-    font-size: 22px; 
+    font-size: 22px;
 }
 .localizacao .endereco {
     margin-top: 65px;
@@ -70,17 +70,21 @@ a{
     transition: 0.3s;
 }
 
-.btnBlack{
+.btnBlack, .btnBlue {
     color: #FCFBFB;
     background-color: #1a1a1a;
     font-size: 30px;
     text-align: center;
     display: inline-block;
     padding: 10px 20px;
+    font-weight: 900;
+}
+.btnBlue{
+    background-color: #0e0494fd;
 }
 .maisAtracoes{
     text-align: center;
-    padding: 100px 0;
+    padding: 100px 0 ;
 }
 .destaque {
     width: 350px;
@@ -91,11 +95,14 @@ a{
     float: left;
     margin: 20px 0;
 }
+.destaque.direito{
+    float: right;
+}
 .destaque img{
     min-height: 100%;
     height: 100%;
 }
-.descricao {
+.descricao{
     display: inline-block;
     width: 800px;
     font-size: 22px;
@@ -113,10 +120,21 @@ a{
 
 .projeto1{
     background-image: url('../img/casa.png');
+    margin-top: 40px;
 }
+
 .projeto2{
-    background-image: url('../img/3d.png');
+    background-image: url('../img/3d.jpg');
 }
+
+.projeto3{
+    background-image: url('../img/game.png');
+}
+
+.projeto4{
+    background-image: url('../img/drone.png');
+}
+
 .projetos{
     background-size: cover;
     width: 100%;
@@ -133,4 +151,13 @@ a{
 }
 .both{
     clear: both;
+}
+
+.titulo{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 20px;
+}
+.center{
+    text-align: center;
 }

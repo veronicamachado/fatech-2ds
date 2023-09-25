@@ -161,3 +161,34 @@ a{
 .center{
     text-align: center;
 }
+.imagem{
+    float: left;
+    width: 40%;
+}
+.imagem img{
+    width: 100%;
+    margin-top: 40px;
+}
+.praca .descricao{
+    width: 56%;
+
+}
+.praca{
+    background-color: #1a1a1a;
+}
+.praca .titulo{
+    color: #fff;
+}
+hr{
+    color: #fff;
+    width: 80%;
+}
+.stands{
+    color: #fff;
+}
+.item{
+    float: left;
+    width: 25%;
+    margin-bottom: 40px;
+    line-height: 22px;
+}

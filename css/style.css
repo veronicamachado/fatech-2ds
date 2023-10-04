@@ -192,3 +192,136 @@ hr{
     margin-bottom: 40px;
     line-height: 22px;
 }
+.noticias .imagem {
+    width: 100%;
+}
+
+.noticias h3 {
+    font-weight: bold;
+}
+
+.noticias .item {
+    width: 30%;
+    margin: 1.5%;
+}
+
+.noticias .texto {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.blog {
+    padding: 40px 0;
+}
+
+.maisdoblog {
+    float: right;
+    color: #1A1A1A;
+    font-size: 22px;
+}
+.apoio{
+    background-color: #1A1A1A;
+}
+.apoio li{
+    background-color: #fff;
+    width: 10%;
+    margin: 3%;
+    display: inline-block;
+}
+.apoio li img{
+    width: 100%;
+}
+.apoio{
+    color: #fff;
+    padding: 40px 0;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #1a1a1a;
+    height: 120px;
+    padding: 10px;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+header .logo{
+    float: left;
+}
+header nav ul li{
+    float: left;
+    margin: 20px;
+}
+ section{
+    margin: 0 auto;
+    width: 1200px;
+ }
+ header .logo img{ 
+    margin-top: 10px;
+ }
+header nav{
+    padding-top: 22px;
+}
+.background{
+    background-image: url(../img/home.png);
+    display: block;
+    width: 100%;
+    height: 385px;
+    content:"";
+    background-position: top center;
+    background-repeat: no-repeat;
+    z-index: -99;
+    background-attachment: fixed;
+    background-size: contain;
+} 
+.slider{
+    position: relative;
+}
+.texto-dir, .texto-esq {
+    position: absolute;
+    top: 167px;
+    color: #fff;
+    width: 300px;
+    left: 10%;
+    text-align: center;
+    font-size: 17px;
+}
+.texto-esq{
+    right: 10%;
+    left: auto;
+    line-height: 25px;
+    padding-top: 25px;
+}
+.texto-esq b{
+    font-weight: 900;
+}
+.texto-dir h1{
+    font-size: 100px;
+    font-weight: 900;
+}
+.sobre .img,.sobre .titulo, .sobre p{
+    float: left;
+}
+.sobre p{
+    width: calc(83% - 40px);
+    padding: 0 20px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: justify;
+}
+.sobre .img{
+    width: 17%;
+}
+.sobre .img img{
+    width: 100%;
+}
+.sobre {
+    padding: 30px;
+}
+.sobre .btnBlack{
+    margin-left: 20px;
+    margin-top: 20px;
+}

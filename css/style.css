@@ -325,3 +325,27 @@ header nav{
     margin-left: 20px;
     margin-top: 20px;
 }
+nav.mobile{
+    display: none;
+}
+/* RESPONSIVO */
+@media screen and (max-width: 480px) {
+    header nav{
+        display: none;
+        font-size: 22px;
+    }
+    nav.mobile{
+        display: block;
+    }
+    nav.mobile ul li ul{
+        display: none;
+    }
+    nav.mobile ul li:hover ul.sub{
+        display: block;
+    }
+    nav.mobile ul.sub li {
+        width: 100%;
+        position: relative;
+        z-index: 999;
+    }
+}
